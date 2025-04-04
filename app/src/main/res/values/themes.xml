@@ -1,0 +1,11 @@
+<resources>
+
+    <style name="Theme.BaiTap.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.BaiTap.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.BaiTap.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

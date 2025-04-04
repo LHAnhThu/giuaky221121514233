@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_day1_main"
+            android:title="Day1_Layout"
+            android:icon="@drawable/ic_pokemon" />
+
+        <item
+            android:id="@+id/nav_day1_maytinh"
+            android:title="Day1_LinearLayout"
+            android:icon="@drawable/ic_calculator" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_day2_login"
+            android:title="Day2_Activity"
+            android:icon="@drawable/ic_login" />
+
+        <item
+            android:id="@+id/nav_day2_danhba"
+            android:title="Day2_Listview_advanced"
+            android:icon="@drawable/ic_phonebook" />
+
+        <item
+            android:id="@+id/nav_day2_danhba_list"
+            android:title="Day2_Listview"
+            android:icon="@drawable/ic_contacts" />
+
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_day3_main"
+            android:title="Day3_Network_Basic"
+            android:icon="@drawable/ic_news" />
+
+        <item
+            android:id="@+id/nav_day3_listnews"
+            android:title="Day3_Network_RecyclerView"
+            android:icon="@drawable/ic_listnews" />
+
+        <item
+            android:id="@+id/nav_day3_weather"
+            android:title="Day3_Network-Weather"
+            android:icon="@drawable/ic_weather" />
+    </group>
+
+</menu>
