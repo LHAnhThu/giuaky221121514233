@@ -41,7 +41,7 @@ public class ListNewsActivity extends BaseActivity {
 
     @Override
     protected int getLayoutResource() {
-        return R.layout.day3_activity_list_news;  // Thay thế bằng layout của ProfileActivity
+        return R.layout.day3_activity_list_news;
     }
 
     @Override

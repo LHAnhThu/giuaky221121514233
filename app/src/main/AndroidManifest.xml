@@ -29,34 +29,44 @@
         </activity>
         <activity
             android:name=".day3.activity.Weather_MainActivity"
-            android:exported="false" />
-        <activity
-            android:name=".day3.Main1Activity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Day3_Network-Weather" />
         <activity
             android:name=".day3.ListNewsActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Day3_Network_RecyclerView" />
         <activity
-            android:name=".day2.DanhBaActivity"
-            android:exported="false" />
+            android:name=".day3.Main1Activity"
+            android:exported="false"
+            android:label="Day3_Network_Basic" />
         <activity
             android:name=".day2.DanhBaListViewActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Day2_Listview" />
+        <activity
+            android:name=".day2.DanhBaActivity"
+            android:exported="false"
+            android:label="Day2_Listview_advanced" />
         <activity
             android:name=".day2.LoginActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Login" />
         <activity
             android:name=".day2.ProfileActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Login" />
         <activity
             android:name=".day2.EditUserActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Login" />
         <activity
             android:name=".day1.MaytinhActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Day1_LinearLayout" />
         <activity
             android:name=".day1.MainActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Demo" />
     </application>
 
 </manifest>

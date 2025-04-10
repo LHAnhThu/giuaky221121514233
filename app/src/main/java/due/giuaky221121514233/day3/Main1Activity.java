@@ -38,7 +38,7 @@ public class Main1Activity extends BaseActivity {
 
     @Override
     protected int getLayoutResource() {
-        return R.layout.day3_activity_main1;  // Thay thế bằng layout của ProfileActivity
+        return R.layout.day3_activity_main1;
     }
 
     @Override

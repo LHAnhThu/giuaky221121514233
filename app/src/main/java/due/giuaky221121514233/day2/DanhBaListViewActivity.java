@@ -30,7 +30,7 @@ public class DanhBaListViewActivity extends BaseActivity implements IOnChildItem
 
     @Override
     protected int getLayoutResource() {
-        return R.layout.day2_activity_danh_ba_list_view; // Trả về layout của MainActivity
+        return R.layout.day2_activity_danh_ba_list_view;
     }
 
     @Override

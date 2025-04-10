@@ -4,7 +4,6 @@ package due.giuaky221121514233;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.view.View;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
@@ -32,7 +31,6 @@ public abstract class BaseActivity extends AppCompatActivity implements Navigati
         super.onCreate(savedInstanceState);
         setContentView(getLayoutResource());
 
-        // Setup Navigation Drawer
         drawerLayout = findViewById(R.id.drawer_layout);
         NavigationView navigationView = findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
@@ -46,7 +44,6 @@ public abstract class BaseActivity extends AppCompatActivity implements Navigati
         getSupportActionBar().setHomeButtonEnabled(true);
     }
 
-    // Hàm này bắt buộc các Activity con phải override để set layout
     protected abstract int getLayoutResource();
 
     @Override

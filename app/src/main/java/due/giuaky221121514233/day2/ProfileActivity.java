@@ -21,7 +21,7 @@ public class ProfileActivity extends BaseActivity implements View.OnClickListene
 
     @Override
     protected int getLayoutResource() {
-        return R.layout.day2_activity_profile;  // Thay thế bằng layout của ProfileActivity
+        return R.layout.day2_activity_profile;
     }
 
     @Override

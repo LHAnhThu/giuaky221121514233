@@ -19,7 +19,7 @@ public class EditUserActivity extends BaseActivity implements View.OnClickListen
 
     @Override
     protected int getLayoutResource() {
-        return R.layout.day2_activity_edit_user; // Trả về layout của MainActivity
+        return R.layout.day2_activity_edit_user;
     }
 
     @Override

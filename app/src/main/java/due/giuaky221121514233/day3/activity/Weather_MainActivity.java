@@ -38,7 +38,7 @@ public class Weather_MainActivity extends BaseActivity {
 
     @Override
     protected int getLayoutResource() {
-        return R.layout.day3_weather_activity_main;  // Thay thế bằng layout của ProfileActivity
+        return R.layout.day3_weather_activity_main;
     }
 
     @Override

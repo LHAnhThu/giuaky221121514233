@@ -13,7 +13,7 @@ public class MainActivity extends BaseActivity {
 
     @Override
     protected int getLayoutResource() {
-        return R.layout.day1_activity_main; // Trả về layout của MainActivity
+        return R.layout.day1_activity_main;
     }
 
     @Override

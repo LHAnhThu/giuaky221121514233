@@ -22,7 +22,7 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
 
     @Override
     protected int getLayoutResource() {
-        return R.layout.day2_activity_login; // Trả về layout của MainActivity
+        return R.layout.day2_activity_login;
     }
 
     @Override
